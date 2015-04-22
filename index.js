@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var _ = require('lodash');
 var socketIO = require('socket.io');
 var path = require('path');
 
