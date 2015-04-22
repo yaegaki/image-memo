@@ -34,7 +34,7 @@ $(function () {
         $('#overlay').fadeOut(300);
 
         e = e.originalEvent;
-        uploadImage(e.dataTransfer.files, e.clientX, e.clientY);
+        uploadImage(e.dataTransfer.files, e.pageX, e.pageY);
     });
 
     function uploadImage(files, left, top) {
